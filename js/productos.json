@@ -1,0 +1,86 @@
+[
+    {
+        "img":"212 vip.webp",
+        "marca": "212 VIP",
+        "nombre": "Carolina Herera",
+        "precio": 55800,
+        "id":1
+    },
+    {
+        "img":"good girl blush.webp",
+        "marca": "Good Girl Blush",
+        "nombre": "Carolina Herera",
+        "precio": 92950,
+        "id":2
+    },
+    {
+        "img":"ck on.webp",
+        "marca": "CK One",
+        "nombre": "Calvin Klein",
+        "precio": 62000,
+        "id":3
+    },
+    {
+        "img":"armani code.webp",
+        "marca": "Armani Code",
+        "nombre": "Giorgio Armani",
+        "precio": 74900,
+        "id":4
+    },
+    {
+        "img":"dolce gabanna light blue.webp",
+        "marca": "Dolce & Gabanna",
+        "nombre": "Dolce & Gabanna",
+        "precio": 98670,
+        "id":5
+    },
+    {
+        "img":"king of seduction.webp",
+        "marca": "King of Seduction",
+        "nombre": "Antonio Banderas",
+        "precio": 17185,
+        "id":6
+    },
+    {
+        "img":"bambu.webp",
+        "marca": "Bambu",
+        "nombre": "Adolfo Dominguez",
+        "precio": 22920,
+        "id":7
+    },
+    {
+        "img":"intense men.webp",
+        "marca": "Intense Men",
+        "nombre": "BOOS",
+        "precio": 19050,
+        "id":8
+    },
+    {
+        "img":"agua de bambu woman.webp",
+        "marca": "Agua de Bambu Woman",
+        "nombre": "Adolfo Dominguez",
+        "precio": 22920,
+        "id":9
+    },   
+    {
+        "img":"tommy now girl.webp",
+        "marca": "Tommy Now Girl",
+        "nombre": "Tommy Hilfiger",
+        "precio": 85990,
+        "id":10
+    },
+    {
+        "img":"olympea.webp",
+        "marca": "Olympea",
+        "nombre": "Paco Rabanne",
+        "precio": 95000,
+        "id":11
+    },
+    {
+        "img":"pure xs men.webp",
+        "marca": "Pure XS Men",
+        "nombre": "Paco Rabanne",
+        "precio": 60300,
+        "id":12
+    }
+  ]
