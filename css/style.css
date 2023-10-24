@@ -51,7 +51,7 @@ header .nav-link {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #e4b0b0;
+    background-color: #ffffff;
     color: #000000;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -103,8 +103,8 @@ p{
 }
 
 .imgproductos{
-    height: 250px;
-    width: 200px;
+    height: 200px;
+    width: 150px;
 }
 
 footer{
