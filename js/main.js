@@ -1,10 +1,12 @@
 let carrito = [];
+let productosFiltrados = [];
 
 const listaProductos = document.querySelector("#productos");
 const contentCarrito = document.querySelector('#carrito tbody');
 const totalCompraElement = document.querySelector('#total-compra');
 const botonVaciarCarrito = document.getElementById("vaciar-carrito");
 const btnComprar = document.querySelector('#comprar');
+const campoBusqueda = document.querySelector("#busqueda");
 
 
 
@@ -15,10 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
             return res.json()
         })
         .then((data)=>{
-            dibujarProductos(data)
+            productos = data
+            productosFiltrados = data
+            dibujarProductos(productosFiltrados)
         })
         .catch((err)=>{
-            console.log(err)
+          err();
         });
 
     function dibujarProductos(productos){
@@ -26,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let html = ""
         productos.forEach((producto)=>{
             html += `
-            <div class="producto col-sm-2 col-md-4 col-xl-3 text-center shadow-lg rounded">
+            <div class="producto col-sm-2 col-md-4 col-xl-2 text-center shadow-lg rounded">
                         <img class="img-fluid imgproductos" src="assets/img/${producto.img}" alt="">
                         <div class="descripcion">
                             <div id="name-product">
@@ -42,6 +46,25 @@ document.addEventListener('DOMContentLoaded', () => {
             `
         })
         contenido.innerHTML = html
+    };
+
+    campoBusqueda.addEventListener('input', buscarProductos);
+
+    function buscarProductos (){
+        const consulta = campoBusqueda.value.toLowerCase();
+        productosFiltrados = productos.filter(producto => {
+            const nombre = producto.nombre.toLowerCase();
+            return nombre.includes(consulta);
+        });
+
+        dibujarProductos(productosFiltrados);
+        productosFiltrados.length > 0 ? dibujarProductos(productosFiltrados) : mostrarMensajeNoDisponible();
+
+    };
+
+    function mostrarMensajeNoDisponible() {
+        const contenido = document.querySelector('#productos');
+        contenido.innerHTML = '<p class="text-center p-2 m-2">No se encontraron resultados</p>';
     };
         
     carrito = JSON.parse(localStorage.getItem('carrito')) || [];
@@ -105,11 +128,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function dibujarCarritoHTML() {
         limpiarCarrito();
 
-
         carrito.forEach((producto, index) => {
             const fila = document.createElement('tr')
             fila.innerHTML = `
-                <td><img src="${producto.imagen}" width="100"/></td>
+                <td><img src="${producto.imagen}" width="70"/></td>
                 <td>${producto.nombre}</td>
                 <td>${producto.precio}</td>
                 <td>${producto.cantidad}</td>

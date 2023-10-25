@@ -2,14 +2,14 @@
     {
         "img":"212 vip.webp",
         "marca": "212 VIP",
-        "nombre": "Carolina Herera",
+        "nombre": "Carolina Herrera",
         "precio": 55800,
         "id":1
     },
     {
         "img":"good girl blush.webp",
         "marca": "Good Girl Blush",
-        "nombre": "Carolina Herera",
+        "nombre": "Carolina Herrera",
         "precio": 92950,
         "id":2
     },
@@ -75,6 +75,27 @@
         "nombre": "Paco Rabanne",
         "precio": 95000,
         "id":11
+    },
+    {
+        "img":"pure xs men.webp",
+        "marca": "Pure XS Men",
+        "nombre": "Paco Rabanne",
+        "precio": 60300,
+        "id":12
+    },
+    {
+        "img":"pure xs men.webp",
+        "marca": "Pure XS Men",
+        "nombre": "Paco Rabanne",
+        "precio": 60300,
+        "id":12
+    },
+    {
+        "img":"pure xs men.webp",
+        "marca": "Pure XS Men",
+        "nombre": "Paco Rabanne",
+        "precio": 60300,
+        "id":12
     },
     {
         "img":"pure xs men.webp",

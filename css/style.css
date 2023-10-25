@@ -6,7 +6,7 @@
 
 
 header {
-    background-color: #037592;
+    background-color: #56830f;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
@@ -28,7 +28,6 @@ header .nav-link {
     margin-right: 5px;
     font-size: 1.5rem;
 }
-
 
 #carrito th,
 #carrito td {
@@ -79,6 +78,7 @@ header .nav-link {
     padding: 10px;
     text-decoration: none;
 }
+
 .producto{
     margin-top: 40px;
     margin-bottom: 20px;
@@ -108,8 +108,7 @@ p{
 }
 
 footer{
-    background-color: #037592;
-
+    background-color: #56830f;
 }
 
 footer i{
