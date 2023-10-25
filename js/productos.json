@@ -84,24 +84,24 @@
         "id":12
     },
     {
-        "img":"pure xs men.webp",
-        "marca": "Pure XS Men",
-        "nombre": "Paco Rabanne",
-        "precio": 60300,
-        "id":12
+        "img":"jeanpaul1.webp",
+        "marca": "Gaultier Divine",
+        "nombre": "Jean Paul Gaultier",
+        "precio": 88788,
+        "id":13
     },
     {
-        "img":"pure xs men.webp",
-        "marca": "Pure XS Men",
-        "nombre": "Paco Rabanne",
-        "precio": 60300,
-        "id":12
+        "img":"sauvage.webp",
+        "marca": "Sauvage",
+        "nombre": "Dior",
+        "precio": 85600,
+        "id":14
     },
     {
-        "img":"pure xs men.webp",
-        "marca": "Pure XS Men",
+        "img":"famepacorabanne.webp",
+        "marca": "Fame EDT Refillable",
         "nombre": "Paco Rabanne",
-        "precio": 60300,
-        "id":12
+        "precio": 106200,
+        "id":15
     }
   ]
